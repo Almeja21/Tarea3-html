@@ -1,0 +1,274 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	background:#254252;
+	width: 100%;
+	height: 120px;
+	margin: 0%;
+	background-size: cover;
+	background-position: center;
+
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.menu ul{
+	display: flex;
+	font-size: 18px;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	gap: 1cm;
+	padding: 10px 20 px;
+}
+
+.menu li{
+	list-style: none;
+	padding: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.menu a:hover {
+	border-bottom: 2px solid rgb(255, 0, 204);
+	transition: 0.4s linear;
+	color: turquoise
+}
+.redes {
+	font-size: 20px;
+	color: #254252;
+}
+button {
+	font-size: 15px;
+	color: wheat;
+	padding: 2px 4px;
+	background: #254252;
+}
+
+
+
+main {
+	background-image: url(assets/salad3_almejario.jpg);
+	width: 100%;
+	height: 700px;
+	margin: 0%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+h1 {
+	display: flex;
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 400rem;
+	color: white;
+    text-align: left;
+    height: 300 px;
+    line-height: 120px;
+	margin: 200px;
+	padding-top: 200px;
+	
+}
+
+p {
+	display: flex;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+	color: white;
+	text-align: left;
+	height: 300 px;
+	line-height: 120px;
+	margin: 200px;
+	
+}
+.boton {
+	font-size: 10 px;
+	padding: 10px 20px;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+	background-color: rgb(212, 11, 149);
+	text-align: left;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 200px;
+
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    background-color: azure;
+    overflow-y: scroll;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container article{
+    width: 240px;
+    border: solid 1px saddlebrown;
+    padding: 1em;
+    margin: 1em;
+	background: rgb(238, 233, 226);
+}
+
+.container article img{
+   width: 100%;
+}
+
+.container_grid{
+    display:  grid;
+    grid-template-columns:200px 2fr 1fr 1fr;
+    grid-template-rows: 200px 1fr;
+    grid-column: 1 / 2;
+}
+
+.container_grid div{
+    border: solid 1px red;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.heading-1{
+	display: flex;
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	color: #a7148c;
+	text-align: center;
+	height: 80 px;
+	line-height: 60px;
+	margin: 80px;
+
+}
+
+
+.h2{
+	display: flex;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 40px;
+	color: #a7148c;
+	text-align: center;
+	height: 300 px;
+	line-height: 120px;
+	margin: 200px;
+}
+
+
+
+.h3{
+	display: flex;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 6px;
+	color: #254252;
+	text-align: left;
+	height: 300 px;
+	line-height: 120px;
+	margin: 200px;
+}
+
+
+
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column: 1 / 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img{
+    width: 100% ;
+
+}
+
+
+
+footer{
+	display: flex;
+    background: black;
+    color: white;
+    text-align: center;
+	font-size: 10px;
+    height: 100px;
+	width: 100%;
+    line-height: 80px;
+  }
+
+
+
+
+Fuentes
+.fira-sans-light {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .fira-sans-regular {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  .fira-sans-regular-italic {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  .fira-sans-medium {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  .fira-sans-bold {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .pacifico-regular {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+
+  
