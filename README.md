@@ -87,7 +87,7 @@
                     <article>
                         <img src="./assets/pan_naranja_almejario.jpg">
                         <h2>Dulce tentación</h2>
-                        <h3>Pan de narnaja</h3>
+                        <h3>Pan de naranja</h3>
                         <section>
                             <button>-</button>
                             <span>0</span>
